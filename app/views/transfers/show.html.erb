@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Brand:</strong>
+  <%= @transfer.brand %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @transfer.category %>
+</p>
+
+<p>
+  <strong>Qunatity:</strong>
+  <%= @transfer.qunatity %>
+</p>
+
+<p>
+  <strong>Transfer date:</strong>
+  <%= @transfer.transfer_date %>
+</p>
+
+<p>
+  <strong>Manager:</strong>
+  <%= @transfer.manager %>
+</p>
+
+<p>
+  <strong>Stock:</strong>
+  <%= @transfer.stock %>
+</p>
+
+<%= link_to 'Edit', edit_stock_transfer_path(@stock, @transfer ) %> |
+<%= link_to 'Back', stock_transfers_path(@stock)%>
+

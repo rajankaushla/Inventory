@@ -1,0 +1,36 @@
+<p id="notice"><%= notice %></p>
+
+<center> <h1>Stocks</h1> </center>
+<!-- Search Button -->
+ <%= form_tag stocks_path, :method => 'get' do %> 
+    <center> <%= text_field_tag :search, params[:search] %> </center>
+    <center> <%= submit_tag "Search" %> <center>
+  <% end %>
+<center> <table> <center>
+  <thead>
+    <tr>
+      <th>Brand</th>
+      <th>Category</th>
+      <th>Quantity</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @stocks.each do |stock| %>
+      <tr>
+        <td><%= stock.brand %></td>
+        <td><%= stock.category %></td>
+        <td><%= stock.quantity %></td>
+        <td><%= link_to 'Show', stock %></td>
+        <td><%= link_to 'Edit', edit_stock_path(stock) %></td>
+        <td><%= link_to 'Destroy', stock, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+
+<%= link_to 'New Stock', new_stock_path %>

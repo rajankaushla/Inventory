@@ -1,0 +1,47 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Transfers</h1>
+<!-- a stock can have 0 or 1 transfer-->
+<!-- if the stock does not have a transfer we cannot
+display the transfer details as the application will crash-->
+<% if @transfer == nil %>
+<h3> This stock has no transfer yet. </h3>
+<% else %>
+<!-- the transfers exists, let's display its details-->
+
+<table>
+  <thead>
+    <tr>
+      <th>Brand</th>
+      <th>Category</th>
+      <th>Qunatity</th>
+      <th>Transfer_date</th>
+      <th>Manager</th>  
+      <th>Stock</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+    <tbody>
+      <tr>
+        <td><%= @transfer.brand %></td>
+        <td><%= @transfer.category %></td>
+        <td><%= @transfer.qunatity %></td>
+        <td><%= @transfer.transfer_date %></td>
+        <td><%= @transfer.manager %></td>
+        <td><%= link_to 'Show', stock_transfer_path(@stock, @transfer) %></td>
+        <td><%= link_to'Edit', edit_stock_transfer_path(@stock, @transfer) %></td>
+        <td><%= link_to'Destroy', stock_transfer_path(@stock, @transfer),method: :delete, data: { confirm:'Are you sure?'} %></td>
+      </tr>
+    </tbody>
+  <h1>Listing Transfer for Stock 
+    <%= @stock.brand %>
+    <%= @stock.category %>
+    <%= @stock.quantity %>
+  </h1> 
+</table>
+<% end %>
+
+<br>
+
+<%= link_to 'New Transfer', new_stock_transfer_path(@stock) %>
+<%= link_to 'Back to stock', @stock %>

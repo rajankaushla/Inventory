@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  brand: MyString
+  category: MyString
+  qunatity: 1
+  order_date: 2018-11-20
+  manager: MyString
+  stock: one
+
+two:
+  brand: MyString
+  category: MyString
+  qunatity: 1
+  order_date: 2018-11-20
+  manager: MyString
+  stock: two

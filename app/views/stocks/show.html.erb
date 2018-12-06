@@ -1,0 +1,25 @@
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Brand:</strong>
+  <%= @stock.brand %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @stock.category %>
+</p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @stock.quantity %>
+</p>
+
+<%= link_to 'Edit', edit_stock_path(@stock) %> |
+<%= link_to 'Back', stocks_path %>
+<h3> Stock's order details</h3>
+<%= link_to "Show Order Details", stock_orders_path(@stock) %>
+
+<h3> Stock's Transfer details</h3>
+<%= link_to "Show Transfer Details", stock_transfers_path(@stock) %>		

@@ -1,0 +1,43 @@
+###############Observer Stock:#
++++ StockObserver: The stock of
+Fanta Show
+has been updated by quantity. 22
+##############################
+A new stock create:
+###############Observer Stock:#
++++ StockObserver: The stock of
+Fanta Show
+has been updated by quantity. 223
+##############################
+A new stock create:
+###############Observer Stock:#
++++ StockObserver: The stock of
+Fanta Show
+has been updated by quantity. 234
+##############################
+###############Observer Stock:#
+--- StockObserver: The stock of
+Centa Shoes
+has been destroy by quantity. 4
+##############################
+###############Observer Stock:#
++++ StockObserver: The stock of
+Puma Shoes
+has been updated by quantity. 27
+##############################
+###############Observer Stock:#
++++ StockObserver: The stock of
+Fanta Show
+has been updated by quantity. 22
+##############################
+A new stock create:
+###############Observer Stock:#
++++ StockObserver: The stock of
+Trinity Test
+has been updated by quantity. 33
+##############################
+###############Observer Stock:#
++++ StockObserver: The stock of
+raju Shoes
+has been updated by quantity. 3
+##############################

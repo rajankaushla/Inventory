@@ -1,0 +1,47 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Orders</h1>
+<!-- a stock can have 0 or 1 order-->
+<!-- if the stock does not have a order we cannot
+display the order details as the application will crash-->
+<% if @order == nil %>
+<h3> This stock has no order yet. </h3>
+<% else %>
+<!-- the orders exists, let's display its details-->
+
+<table>
+  <thead>
+    <tr>
+      <th>Brand</th>
+      <th>Category</th>
+      <th>Qunatity</th>
+      <th>Order_date</th>
+      <th>Manager</th>  
+      <th>Stock</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+    <tbody>
+      <tr>
+        <td><%= @order.brand %></td>
+        <td><%= @order.category %></td>
+        <td><%= @order.qunatity %></td>
+        <td><%= @order.order_date %></td>
+        <td><%= @order.manager %></td>
+        <td><%= link_to 'Show', stock_order_path(@stock, @order) %></td>
+        <td><%= link_to'Edit', edit_stock_order_path(@stock, @order) %></td>
+        <td><%= link_to'Destroy', stock_order_path(@stock, @order),method: :delete, data: { confirm:'Are you sure?'} %></td>
+      </tr>
+    </tbody>
+  <h1>Listing Order for Stock 
+    <%= @stock.brand %>
+    <%= @stock.category %>
+    <%= @stock.quantity %>
+  </h1> 
+</table>
+<% end %>
+
+<br>
+
+<%= link_to 'New Order', new_stock_order_path(@stock) %>
+<%= link_to 'Back to stock', @stock %>
