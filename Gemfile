@@ -8,7 +8,8 @@ end
 gem 'rails', '~> 5.0.7'
 # Use sqlite3 as the database for Active Record
 group :development, :test do # <<<< :development, not devlopment
-  gem 'sqlite3'
+  # gem 'sqlite3'
+  gem 'pg'
 end
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
@@ -26,7 +27,7 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
-gem 'pg'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
