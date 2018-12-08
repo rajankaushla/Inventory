@@ -4,12 +4,17 @@ git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
 end
+
+group :production do
+    gem 'pg'
+    gem 'rails_12factor'
+  end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.7'
 # Use sqlite3 as the database for Active Record
+
 group :development, :test do # <<<< :development, not devlopment
-  # gem 'sqlite3'
-  gem 'pg'
+   gem 'sqlite3'
 end
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
@@ -65,7 +70,6 @@ gem 'rspec', '~> 3.8'
 # Gauard Testing 
 gem 'guard-rspec', require: false
 
-
 # Devise for Authentication
 gem 'devise', '~> 4.5'
 
@@ -77,5 +81,4 @@ gem 'rails-observers'
 
 # Admin 
 gem 'rails_admin'
-
 

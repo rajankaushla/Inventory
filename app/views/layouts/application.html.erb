@@ -11,6 +11,7 @@
   <p class="alert"><%= alert %></p>
 
   <body>
+   <!--  <%= image_tag("logos/img1.png") %> -->
     <%= yield %>
   <% if user_signed_in? %>
 	<div>Signed in as... <%= current_user.email %>

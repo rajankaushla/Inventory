@@ -41,3 +41,90 @@ has been updated by quantity. 33
 raju Shoes
 has been updated by quantity. 3
 ##############################
+###############Observer Stock:#
+--- StockObserver: The stock of
+Nike shoes
+has been destroy by quantity. 3
+##############################
+###############Observer Stock:#
+--- StockObserver: The stock of
+s shoes
+has been destroy by quantity. 3
+##############################
+###############Observer Stock:#
+--- StockObserver: The stock of
+xxjsjnd jssnkq
+has been destroy by quantity. 3
+##############################
+###############Observer Order:#
+###############Observer Order:#
+--- OrderObserver: The order of
+ 
+has been destroy by 
+##############################
+###############Observer Order:#
+###############Observer Order:#
++++ OrderObserver: The order of
+	Puma Shoes
+	has been updated 
+###############Observer Order:#
+--- OrderObserver: The order of
+	Puma Shoes
+	has been destroy  
+##############################
+###############Observer Transfer:#
+--- TransferObserver: The transfer of
+	Zara Shoes
+	has been destroy  
+##############################
+###############Observer Stock:#
+--- StockObserver: The stock of
+Cekek sjk
+has been destroy by quantity. 4
+##############################
+###############Observer Stock:#
+--- StockObserver: The stock of
+Peekay Price
+has been destroy by quantity. 3
+##############################
+###############Observer Stock:#
++++ StockObserver: The stock of
+Zara Jacket
+has been updated by quantity. 5
+##############################
+###############Observer Stock:#
+--- StockObserver: The stock of
+Zara Jacket
+has been destroy by quantity. 5
+##############################
+###############Observer Transfer:#
++++ TransferObserver: The transfer of
+	Zara Shoes
+	has been updated 
+###############Observer Transfer:#
+--- TransferObserver: The transfer of
+	Zara Shoes
+	has been destroy  
+##############################
+###############Observer Transfer:#
+--- TransferObserver: The transfer of
+	Zara Shoes
+	has been destroy  
+##############################
+###############Observer Transfer:#
++++ TransferObserver: The transfer of
+	Zara  Shoes
+	has been updated 
+###############Observer Transfer:#
+--- TransferObserver: The transfer of
+	Zara  Shoes
+	has been destroy  
+##############################
+###############Observer Transfer:#
++++ TransferObserver: The transfer of
+	H&M Jacket
+	has been updated 
+###############Observer Transfer:#
++++ TransferObserver: The transfer of
+	H&M Jacket
+	has been updated 
