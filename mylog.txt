@@ -128,3 +128,127 @@ has been destroy by quantity. 5
 +++ TransferObserver: The transfer of
 	H&M Jacket
 	has been updated 
+###############Observer Order:#
++++ OrderObserver: The order of
+	Fanta Show
+	has been updated 
+###############Observer Order:#
++++ OrderObserver: The order of
+	Fanta Show
+	has been updated 
+###############Observer Transfer:#
++++ TransferObserver: The transfer of
+	Fanta Show
+	has been updated 
+###############Observer Order:#
++++ OrderObserver: The order of
+	Fanta Show
+	has been updated 
+###############Observer Order:#
++++ OrderObserver: The order of
+	 
+	has been updated 
+A new stock create:
+###############Observer Order:#
+--- OrderObserver: The order of
+	Zoop Shoes
+	has been destroy  
+##############################
+###############Observer Order:#
++++ OrderObserver: The order of
+	Zoop Shoes
+	has been updated 
+###############Observer Order:#
+--- OrderObserver: The order of
+	Zoop Shoes
+	has been destroy  
+##############################
+###############Observer Order:#
++++ OrderObserver: The order of
+	Zoop Shoes
+	has been updated 
+###############Observer Order:#
+--- OrderObserver: The order of
+	Boot Shoes
+	has been destroy  
+##############################
+###############Observer Order:#
+--- OrderObserver: The order of
+	Guess Shoes
+	has been destroy  
+##############################
+###############Observer Stock:#
+--- StockObserver: The stock of
+Rajnasjs shoesq
+has been destroy by quantity. 6
+##############################
+A new stock create:
+###############Observer Order:#
++++ OrderObserver: The order of
+	Gargee Shoes
+	has been updated 
+A new stock create:
+###############Observer Transfer:#
++++ TransferObserver: The transfer of
+	Nike  Shoes
+	has been updated 
+###############Observer Order:#
+--- OrderObserver: The order of
+	Nike  Shoes
+	has been destroy  
+##############################
+###############Observer Transfer:#
++++ TransferObserver: The transfer of
+	Nike  Shoes
+	has been updated 
+###############Observer Transfer:#
++++ TransferObserver: The transfer of
+	Nike  Shoes
+	has been updated 
+###############Observer Order:#
+--- OrderObserver: The order of
+	Nike  Shoes
+	has been destroy  
+##############################
+###############Observer Stock:#
++++ StockObserver: The stock of
+Zara Shoes
+has been updated by quantity. 32
+##############################
+###############Observer Order:#
+--- OrderObserver: The order of
+	Tommy Shoes
+	has been destroy  
+##############################
+###############Observer Transfer:#
++++ TransferObserver: The transfer of
+	Tommy Shoes
+	has been updated 
+###############Observer Transfer:#
++++ TransferObserver: The transfer of
+	Tommy Shoes
+	has been updated 
+###############Observer Transfer:#
+--- TransferObserver: The transfer of
+	H&M Jacket
+	has been destroy  
+##############################
+###############Observer Transfer:#
++++ TransferObserver: The transfer of
+	Visha Shoes
+	has been updated 
+###############Observer Transfer:#
+--- TransferObserver: The transfer of
+	 
+	has been destroy  
+##############################
+A new stock create:
+###############Observer Transfer:#
++++ TransferObserver: The transfer of
+	Arrnots Shoes
+	has been updated 
+###############Observer Transfer:#
+--- TransferObserver: The transfer of
+	Arrnots Shoes
+	has been destroy  
+##############################

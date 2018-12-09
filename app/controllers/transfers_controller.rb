@@ -29,12 +29,14 @@ class TransfersController < ApplicationController
 
   # POST /transfers
   # POST /transfers.json
-  def create
-    @stock = Stock.find(params[:stock_id])
+   def create
+    @user = current_user
+    @stock = Stock.find_by_id(params[:stock_id])
     @transfer = @stock.build_transfer(transfer_params)
-
     respond_to do |format|
       if @transfer.save
+      # for email deliver
+      TransferMailer.transfer_created(@user).deliver
       format.html { redirect_to stock_transfer_url(@stock, @transfer),
                   notice:'Transfer was successfully created.'}
       format.json { render :show, status: :created,

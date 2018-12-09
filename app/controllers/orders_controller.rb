@@ -30,13 +30,13 @@ class OrdersController < ApplicationController
   # POST /orders
   # POST /orders.json
   def create
-    # @stock = Stock.find_by_id(params[:stock_id])
-    
-   
-    # @order = @stock.build_order(order_params)
+    @user = current_user
+    @stock = Stock.find_by_id(params[:stock_id])
+    @order = @stock.build_order(order_params)
     respond_to do |format|
       if @order.save
-      # OrderMailer.order_created(@user).deliver
+      # for email deliver
+      OrderMailer.order_created(@user).deliver
       format.html { redirect_to stock_order_url(@stock, @order),
                   notice:'Order was successfully created.'}
       format.json { render :show, status: :created,

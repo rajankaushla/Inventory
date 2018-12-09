@@ -293,6 +293,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  actionmailer (~> 5.0)
   bootstrap-sass (~> 3.3, >= 3.3.7)
   byebug
   coffee-rails (~> 4.2)

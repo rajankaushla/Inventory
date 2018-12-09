@@ -82,3 +82,5 @@ gem 'rails-observers'
 # Admin 
 gem 'rails_admin'
 
+# Action mailer gem 
+gem 'actionmailer', '~> 5.0'
