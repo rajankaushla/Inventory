@@ -5,7 +5,7 @@ class OrderMailer < ActionMailer::Base
 		mail(to: user.email, 
 			from: "rajankshl@gmail.com",
 			subject: "Order Created",
-			body: "New Order Has Been Created by!"
+			body: "New Order Has Been Created!"
 			)
 	end
 end

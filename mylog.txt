@@ -252,3 +252,15 @@ A new stock create:
 	Arrnots Shoes
 	has been destroy  
 ##############################
+###############Observer Stock:#
++++ StockObserver: The stock of
+Fanta Show
+has been updated by quantity. 28
+##############################
+###############Observer Stock:#
+--- StockObserver: The stock of
+Fanta Show
+has been destroy by quantity. 28
+##############################
+A new stock create:
+A new stock create:

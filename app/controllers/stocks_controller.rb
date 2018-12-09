@@ -2,6 +2,7 @@ require'my_logger'
 
 class StocksController < ApplicationController
   before_action :authenticate_user!
+  before_action :ensure_admin, :only => [:edit, :destroy]
   before_action :set_stock, only: [:show, :edit, :update, :destroy]
 
   # GET /stocks
@@ -66,6 +67,14 @@ class StocksController < ApplicationController
     respond_to do |format|
       format.html { redirect_to stocks_url, notice: 'Stock was successfully destroyed.' }
       format.json { head :no_content }
+    end
+  end
+
+
+
+    def ensure_admin
+    unless current_user && current_user.admin?
+    render :text => "Access Error Message", :status => :unauthorized
     end
   end
 

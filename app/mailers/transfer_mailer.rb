@@ -5,7 +5,7 @@ class TransferMailer < ActionMailer::Base
 		mail(to: user.email, 
 			from: "rajankshl@gmail.com",
 			subject: "Transfer Created",
-			body: "New Transfer Has Been Created by!"
+			body: "New Transfer Has Been Created!"
 			)
 	end
 end
