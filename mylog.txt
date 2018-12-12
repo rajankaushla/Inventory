@@ -306,3 +306,13 @@ A new stock create:
 	Armani Shoes
 	has been destroy  
 ##############################
+###############Observer Order:#
+--- OrderObserver: The order of
+	Trinty  Shoes
+	has been destroy  
+##############################
+###############Observer Order:#
+--- OrderObserver: The order of
+	Zoop Shoes
+	has been destroy  
+##############################
