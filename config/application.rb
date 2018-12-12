@@ -20,7 +20,7 @@ Bundler.require(*Rails.groups)
      :domail               => 'mail.google.com',
      :port                 =>  587,
      :user_name            => 'rajankshl@gmail.com',
-     :password             => 'Loveyourself!@', 
+     :password             => 'Loveyou2205', 
      :authentication       => 'login',
      :enable_starttls_auto => true
       }

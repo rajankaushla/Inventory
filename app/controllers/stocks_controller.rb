@@ -1,8 +1,8 @@
 require'my_logger'
 
 class StocksController < ApplicationController
-  before_action :authenticate_user!
-  before_action :ensure_admin, :only => [:edit, :destroy]
+  # before_action :authenticate_user!
+  # before_action :ensure_admin, :only => [:edit, :destroy]
   before_action :set_stock, only: [:show, :edit, :update, :destroy]
 
   # GET /stocks
@@ -72,11 +72,11 @@ class StocksController < ApplicationController
 
 
 
-    def ensure_admin
-    unless current_user && current_user.admin?
-    render :text => "Access Error Message", :status => :unauthorized
-    end
-  end
+  #   def ensure_admin
+  #   unless current_user && current_user.admin?
+  #   render :text => "Access Error Message", :status => :unauthorized
+  #   end
+  # end
 
   private
     # Use callbacks to share common setup or constraints between actions.

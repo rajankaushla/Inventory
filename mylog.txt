@@ -264,3 +264,45 @@ has been destroy by quantity. 28
 ##############################
 A new stock create:
 A new stock create:
+###############Observer Order:#
+--- OrderObserver: The order of
+	Reebok Shoes
+	has been destroy  
+##############################
+###############Observer Order:#
+--- OrderObserver: The order of
+	Rebook Shoes
+	has been destroy  
+##############################
+###############Observer Order:#
+--- OrderObserver: The order of
+	Tommy Shoes
+	has been destroy  
+##############################
+###############Observer Order:#
++++ OrderObserver: The order of
+	Tommy Shoes
+	has been updated 
+###############Observer Order:#
++++ OrderObserver: The order of
+	Tommy Shoes
+	has been updated 
+###############Observer Order:#
++++ OrderObserver: The order of
+	Tommy Shoes
+	has been updated 
+###############Observer Transfer:#
+--- TransferObserver: The transfer of
+	Trinty Shoes
+	has been destroy  
+##############################
+A new stock create:
+###############Observer Order:#
++++ OrderObserver: The order of
+	Armani Shoes
+	has been updated 
+###############Observer Order:#
+--- OrderObserver: The order of
+	Armani Shoes
+	has been destroy  
+##############################
