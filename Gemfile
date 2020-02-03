@@ -74,7 +74,7 @@ gem 'guard-rspec', require: false
 gem 'devise', '~> 4.5'
 
 # Bootstrap -Sass
-gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+gem 'bootstrap-sass', '~> 3.4'
 
 # Gem for observers
 gem 'rails-observers'
