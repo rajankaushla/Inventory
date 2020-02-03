@@ -5,7 +5,7 @@ This README would explains the require steps to get the application up and runni
 Local installation summary
 
 * Install Ruby on Rails
-* Clone or Download using git@github.com:rajankaushla/widget-search.git
+* Clone or Download using https://github.com/rajankaushla/Inventory
 * Start Server rails s
 * SignUP/SigIn 
 * View Order, Create Order, Transfer 
