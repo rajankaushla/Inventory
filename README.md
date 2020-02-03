@@ -1,24 +1,26 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This README would explains the require steps to get the application up and running.
 
-Things you may want to cover:
+Local installation summary
 
-* Ruby version
+* Install Ruby on Rails
+* Clone or Download using git@github.com:rajankaushla/widget-search.git
+* Start Server rails s
+* SignUP/SigIn 
+* View Order, Create Order, Transfer 
 
-* System dependencies
+Tools and Framewok
 
-* Configuration
+* Framework: Rails verison(Rails 5.2)
+* Language:  Ruby  version(Rails 2.6.0)
 
-* Database creation
+GEMS 
+* Bootstrap: For Application FrontEnd 
+* Admin Panel: For Implement Admin Functionality in Application
+* Devise: Application Authorization and Implement Login/Logout and SignUP  Functionality
+* Design Pattern: Singlton and Observer
 
-* Database initialization
+Database 
+* SQlite3 database Default Database
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
