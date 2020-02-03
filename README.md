@@ -7,7 +7,7 @@ Local installation summary
 * Install Ruby on Rails
 * Clone or Download using https://github.com/rajankaushla/Inventory
 * Start Server rails s
-* SignUP/SigIn 
+* Sign UP/Sig In 
 * View Order, Create Order, Transfer 
 
 Tools and Framewok
