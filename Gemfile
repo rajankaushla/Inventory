@@ -71,7 +71,7 @@ gem 'rspec', '~> 3.8'
 gem 'guard-rspec', require: false
 
 # Devise for Authentication
-gem 'devise', '~> 4.5'
+gem 'devise', '~> 4.7'
 
 # Bootstrap -Sass
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
